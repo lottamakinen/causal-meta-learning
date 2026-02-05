@@ -1,0 +1,24 @@
+# Core
+torch==2.2.2
+torchopt==0.7.3
+posteriors==0.0.2
+optree==0.11.0
+
+# Data & arrays
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==18.1.0
+
+# ML & metrics
+scikit-learn==1.4.1.post1
+scipy==1.14.1
+
+# Visualization
+matplotlib==3.10.0
+tqdm==4.67.1
+
+# Expert inference (Pyro)
+pyro-ppl==1.8.6
+
+# Explainability
+captum==0.7.0

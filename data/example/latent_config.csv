@@ -1,0 +1,2 @@
+num_predictors,parents,z_dim,num_train_tasks,samples_per_task,source_z_std,target_ood_levels,sigma_e,sigma_y,pos_rate,seed
+10,"(0, 1, 2, 3)",4,20,500,0.8,"(0.05, 1.0, 2.0, 3.0, 4.0)",0.15,0.6,0.3,123
