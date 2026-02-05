@@ -1,6 +1,6 @@
-# Bayesian Meta-Learning with Embedding-Conditional Priors
+# Bayesian Meta-Learning with Expert Feedback for Task-Shift Adaptation through Causal Embeddings
 
-Code for causal meta-learning experiments with embedding-conditional priors for healthcare prediction tasks.
+Code for paper "Bayesian Meta-Learning with Expert Feedback for Task-Shift Adaptation through Causal Embeddings".
 
 ## Methods
 
@@ -113,20 +113,6 @@ python method/main.py \
     --dataset toy
 ```
 
-#### Ablation: Zero Embeddings
-
-```bash
-python method/main.py \
-    --tabular_datafile data/example/latent_tabular_data.csv \
-    --longitudinal_datafile data/example/latent_longitudinal_data.csv \
-    --metafile data/example/latent_col_metadata.csv \
-    --embeddingfile data/example/latent_embeddings_causal_noise0.0.csv \
-    --outprefix results/2level_zero \
-    --method 2_level_hierarchical \
-    --adaptation adaptive \
-    --embeddings zero \
-    --dataset toy
-```
 
 ### Command Line Arguments
 
@@ -259,6 +245,8 @@ python method/main.py \
 ```      
 
 ## Acknowledgements
+
+This repository is based on and adapts code originally developed by Sophie Wharrie, released under the MIT License.
 
 - [Posteriors](https://github.com/normal-computing/posteriors)
 - [TorchOpt](https://github.com/metaopt/torchopt)
